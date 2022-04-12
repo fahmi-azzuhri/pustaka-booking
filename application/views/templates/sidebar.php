@@ -10,9 +10,26 @@
             </a>
 
             <!-- Divider -->
-            <hr class="sidebar-divider">
+            <hr class="sidebar-divider mt-3">
 
-           
+           <!-- Heading -->
+           <div class="sidebar-heading">
+               Transaksi
+           </div>
+           <li class="nav-item active">
+               <li class="nav-item">
+                   <a href="<?= base_url('pinjam');?>" class="nav-link pb-0">
+                        <i class="fa fa-fw fa-shopping-cart"></i>    
+                        <span>Data peminjaman</span>
+                    </a>
+               </li>
+               <li class="nav-item">
+                     <a href="<?= base_url('pinjam/daftarBooking');?>" class="nav-link pb-0">
+                        <i class="fa fa-fw fa-list"></i>    
+                        <span>Data Booking</span>
+                    </a>
+               </li>
+           </li>
 
             <!-- Looping Menu-->
                 <div class="sidebar-heading">
