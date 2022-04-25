@@ -75,6 +75,31 @@
                 <!-- Divider -->
                 <hr class="sidebar-divider mt-3">
 
+                <div class="sidebar-heading">
+                    Laporan
+                </div>
+
+                <li class="nav-item active">
+                    <li class="nav-item">
+                        <a href="<?= base_url('laporan/laporan_buku');?>" class="nav-link pb-0">
+                            <i class="fa fa-fw fa-address-book"></i>
+                            <span>Laporan Data Buku</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="<?= base_url('laporan/laporan_anggota');?>" class="nav-link pb-0">
+                            <i class="fa fa-fw fa-address-book"></i>
+                            <span>Laporan Data Anggota</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="<?= base_url('laporan/laporan_pinjam');?>" class="nav-link pb-0">
+                            <i class="fa fa-fw fa-address-book"></i>
+                            <span>Laporan Peminjaman</span>
+                        </a>
+                    </li>
+                </li>
+
             <!-- Sidebar Toggler (Sidebar) -->
             <div class="text-center d-none d-md-inline">
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>
